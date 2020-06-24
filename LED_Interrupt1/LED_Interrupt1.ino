@@ -8,7 +8,7 @@ int LedStatus = LOW;
 
 void setup() 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(LEDpin1, OUTPUT);
   pinMode(LEDpin2, OUTPUT);
