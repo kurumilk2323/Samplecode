@@ -43,7 +43,6 @@ void loop() {
       Serial.println(b[--i]); //ビット列を出力
     }
     
-    //Serial.println("Signal color : BLUE");  
     if(b[0]==1){ //ビット列で、0,1に応じて出力変更
       digitalWrite(BLUE_PIN, HIGH);
     }else{
@@ -81,7 +80,6 @@ void loop() {
       Serial.println(b[--i]);
     }
     
-    //Serial.println("Signal color : BLUE");  
     if(b[0]==1){
       digitalWrite(BLUE_PIN, HIGH);
     }else{
